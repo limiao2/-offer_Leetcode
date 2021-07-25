@@ -12,6 +12,11 @@
 |7|重建二叉树|<ul><li>https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/</li><li>https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/</li></ul>||
 |8|二叉树的下一个节点|<ul><li>https://leetcode.com/problems/populating-next-right-pointers-in-each-node/ </li><li>https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/</li></ul>| 不是一个题，但是leetcode可以用两个pointer来记录leftmost 和 head，然后head一直next。不是perfect binary用三个指针, leftmost, current leve, next level |
 |9|用两个栈实现队列|https://leetcode.com/problems/implement-queue-using-stacks/|如何做到O（1）amortized?|
+|10|斐波那契数列|https://leetcode.com/problems/fibonacci-number/|循环更新n-1,n-2，memotization。了解矩阵算法|
+|10.1|青蛙跳台阶|https://leetcode.com/problems/climbing-stairs/||
+|11|旋转数组的最小数字|https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/|讨论rotate和没有rotate的情况，二分。如果是排好序的数组查找或者统计次数，都可以二分。熟记查找和排序的算法。快速排序写出。|
+|12|矩阵中的路径|https://leetcode.com/problems/word-search/|backtracking.小trick更新matrix里的值然后再重新赋值，这样避免记录visited|
+|13|机器人的运动范围|https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/|backtracking|
 |||||
 |||||
 |||||
